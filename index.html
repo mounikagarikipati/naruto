@@ -237,15 +237,33 @@
                 <h3>Sasuke Uchiha</h3>
                 <p>Rival</p>
                 <div class="like-buttons">
-                    <button class="like-button">Like</button>
-                    <button class="like-button">Love</button>
-                    <button class="like-button">Wow</button>
+                    <button class="like-button" style="background-color: #3498db; color: #fff; padding: 8px 15px; margin-right: 10px; border: none; border-radius: 4px; cursor: pointer;">
+                        Like
+                    </button>
+                
+                    <button class="like-button" style="background-color: #e74c3c; color: #fff; padding: 8px 15px; margin-right: 10px; border: none; border-radius: 4px; cursor: pointer;">
+                        Love
+                    </button>
+                
+                    <button class="like-button" style="background-color: #2ecc71; color: #fff; padding: 8px 15px; margin-right: 10px; border: none; border-radius: 4px; cursor: pointer;">
+                        Wow
+                    </button>
                 </div>
+                
                 <div class="reactions">
-                    <button class="reaction-button" onclick="reactCharacter('sasuke', '👍')">👍</button>
-                    <button class="reaction-button" onclick="reactCharacter('sasuke', '❤️')">❤️</button>
-                    <button class="reaction-button" onclick="reactCharacter('sasuke', '😮')">😮</button>
+                    <button class="reaction-button" onclick="reactCharacter('sasuke', '👍')" style="background-color: #e74c3c; color: #fff; padding: 8px 15px; margin-right: 10px; border: none; border-radius: 4px; cursor: pointer;">
+                        👍
+                    </button>
+                
+                    <button class="reaction-button" onclick="reactCharacter('sasuke', '❤️')" style="background-color: #e74c3c; color: #fff; padding: 8px 15px; margin-right: 10px; border: none; border-radius: 4px; cursor: pointer;">
+                        ❤️
+                    </button>
+                
+                    <button class="reaction-button" onclick="reactCharacter('sasuke', '😮')" style="background-color: #e74c3c; color: #fff; padding: 8px 15px; margin-right: 10px; border: none; border-radius: 4px; cursor: pointer;">
+                        😮
+                    </button>
                 </div>
+                
                 <div class="like-counter" id="sasuke-like-counter">0 Likes</div>
                 <div class="like-counter" id="sasuke-reaction-counter">0 Reactions</div>
             </div>
